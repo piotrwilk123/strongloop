@@ -1,0 +1,26 @@
+{
+    "host": "waws-prod-am2-051.ftp.azurewebsites.windows.net",
+    "port": 22,
+    "username": "strongloop",
+    "password": "Haslo1!!",
+    "protocol": "sftp",
+    "agent": null,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "passive": false,
+    "interactiveAuth": false,
+    "remotePath": "/",
+    "uploadOnSave": false,
+    "syncMode": "update",
+    "watcher": {
+        "files": false,
+        "autoUpload": false,
+        "autoDelete": false
+    },
+    "ignore": [
+        "**/.vscode",
+        "**/.git",
+        "**/.DS_Store",
+        "**/.sftpConfig.json"
+    ]
+}

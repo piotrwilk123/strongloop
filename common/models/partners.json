@@ -1,0 +1,26 @@
+{
+  "name": "PARTNERS",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ID": {
+      "type": "number",
+      "required": true,
+      "generated": true,
+      "id": true
+    },
+    "NAME": {
+      "type": "string",
+    "generated": true,
+
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
