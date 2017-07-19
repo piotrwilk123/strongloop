@@ -26,10 +26,10 @@
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": false //,
-    // "options": {
-    //   "strictObjectIDCoercion": true
-    // }
+    "public": false ,
+     "options": {
+       "strictObjectIDCoercion": true
+     }
   },
   "Role": {
     "dataSource": "db",
