@@ -10,7 +10,8 @@
     "database": "strongloop",
     "password": "Haslo1!!",
     "name": "azure",
-    "user": "strongloop",
+    "user": "strongloop@strongloop",
+	"schema": "dbo",
     "connector": "mssql"
   }
 }
