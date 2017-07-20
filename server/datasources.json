@@ -12,6 +12,9 @@
     "name": "azure",
     "user": "strongloop@strongloop",
 	"schema": "dbo",
-    "connector": "mssql"
+    "connector": "mssql",
+	"options": {
+		"encrypt": true
+	}	
   }
 }
